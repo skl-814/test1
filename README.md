@@ -1,40 +1,29 @@
 # biliget
 
-#### 介绍
-download bili video use tenapi and video url
+#### Introduction
 
-#### 软件架构
-软件架构说明
+download bili video use **tenapi** and video url
 
+source code on [github](https://github.com/skl-814/test1)
 
-#### 安装教程
+#### Useage
 
-1. install python
-2. using pip install pakages
-"shell
+install python[python.org](https://python.org/download)
+
+using pip install pakage "requests":
+
+```shell
 pip install requests
-"
-3. finished
+```
 
-#### 使用说明
+Download code:
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+```shell
+git clone https://github.com/skl-814/test1.git
+```
 
-#### 参与贡献
+Run **biliget.py**
 
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
-
-
-#### 特技
-
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+```shell
+python3 biliget.py
+```
