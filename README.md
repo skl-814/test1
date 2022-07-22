@@ -1,29 +1,34 @@
-# biliget
+# biliget V2
 
-#### Introduction
+## Instruction
+This is a tool to download videos from [bilibili](https://www.bilibili.com),depend on [tenapi](https://tenapi.com)
 
-download bili video use **tenapi** and video url
-
-source code on [github](https://github.com/skl-814/test1)
-
-#### Useage
-
-install python[python.org](https://python.org/download)
-
-using pip install pakage "requests":
-
-```shell
-pip install requests
+## Installion
+1.Install CPython3 and git:
+On Debian:
+```bash
+sudo apt install python-is-python3 python3-pip git
 ```
 
-Download code:
+On Alpine or other OS using busybox:
+```ash
+sudo apk add python3 py3-pip git
+```
+<br></br>
 
-```shell
+2.Clone the code from [github](https://github.com/skl-814/test1):
+```bash
 git clone https://github.com/skl-814/test1.git
 ```
 
-Run **biliget.py**
+3.Install depends:
+```bash
+pip install wget requests colorama
+```
 
-```shell
-python3 biliget.py
+4.Just Run it:
+```bash
+cd test1/V2
+python test.py
+#or python3 test.py
 ```
